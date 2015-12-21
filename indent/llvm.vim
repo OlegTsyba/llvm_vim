@@ -16,7 +16,7 @@ if exists("b:did_indent")
 endif
 let b:did_indent = 1
 
-setlocal shiftwidth=2 expandtab
+setlocal shiftwidth=4 expandtab
 
 setlocal indentkeys=0{,0},<:>,!^F,o,O,e
 setlocal indentexpr=GetLLVMIndent()

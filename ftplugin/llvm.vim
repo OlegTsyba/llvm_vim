@@ -7,6 +7,6 @@ if exists("b:did_ftplugin")
 endif
 let b:did_ftplugin = 1
 
-setlocal softtabstop=2 shiftwidth=2
+setlocal softtabstop=4 shiftwidth=4
 setlocal expandtab
 setlocal comments+=:;
